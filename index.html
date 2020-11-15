@@ -42,4 +42,24 @@
 
     </body>
 </html>
-
+<p>/*calculate a result of 5 subject marks and check the result is pass or fail*/
+#include<stdio.h>
+int main()
+{
+float english,maths,social,hindi,science;
+float total,average,marks;
+printf("enter five subjects number");
+scanf("%f %f %f %f %f",&english,&maths,&social,&hindi,&science);
+total=english+maths+social+hindi+science;
+average=total/5;
+printf("total marks=%f\n",total);
+printf("average marks=%f\n",average);
+if(total>=300)
+{
+    printf("\nresult is pass");
+}
+else
+    printf("\nresult is fail");
+return 0;
+    }</p>
+</html>
